@@ -27,9 +27,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
     
 
-      <body>
+      <body style={{ backgroundColor: '#daf6cc' }}>
         <Navbar/>
-        <div>
+        <div style={{ backgroundColor: '#daf6cc', minHeight: '100vh' }}>
           {children}
         </div>
       </body>
