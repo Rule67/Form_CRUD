@@ -49,7 +49,7 @@ export const bands: Band[] = [
     genre: "T-Pop",
     hitSong: "Through Patches of Violet",
     history: "เริ่มฝึกร้องแร็ปด้วยตัวเองตั้งแต่อยู่ชั้น ม.2 โดยได้รับแรงบันดาลใจจาก นิกกี มินาจ (Nicki Minaj) สร้างประวัติศาสตร์เป็นศิลปินเดี่ยวไทยคนแรกที่ได้ขึ้นแสดงในเทศกาลดนตรีระดับโลกอย่าง Coachella Valley Music and Arts Festival ที่สหรัฐอเมริกา ในปี พ.ศ. 2565 พร้อมกระแสไวรัลการกินข้าวเหนียวมะม่วงบนเวที",
-    coverImage: "/images/bands/mili/mili.png",
+    coverImage: "/images/bands/mili/mili.jpg",
     members: [
       { id: 1, name: "Cassie Wei", image: "/images/bands/mili/d1.jpg" },
       { id: 2, name: "Yamato Kasai", image: "/images/bands/mili/d2.jpg" },
