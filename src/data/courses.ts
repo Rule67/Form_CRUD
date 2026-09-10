@@ -1,4 +1,4 @@
-import { Band } from "@/types/band";
+import type { Band } from "@/types/courses";
 
 export const bands: Band[] = [
   {

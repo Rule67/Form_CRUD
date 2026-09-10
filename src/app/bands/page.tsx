@@ -1,5 +1,5 @@
-import { bands } from "@/data/bands";
-import BandCard from "@/components/BandCard";
+import { bands } from "@/data/courses";
+import CourseExplorer from "@/components/CourseExplorer";
 
 export default function BandsPage() {
   return (
@@ -23,18 +23,8 @@ export default function BandsPage() {
         MyFavorite Bands
       </h1>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
-          gap: "24px",
-          maxWidth: "1400px",
-          margin: "0 auto",
-        }}
-      >
-        {bands.map((band) => (
-          <BandCard key={band.id} band={band} />
-        ))}
+      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
+        <CourseExplorer bands={bands} />
       </div>
     </main>
   );
