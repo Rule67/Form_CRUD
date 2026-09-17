@@ -39,6 +39,11 @@ export default function Navbar() {
                 วงดนตรี
               </Link>
             </li>
+            <li>
+              <Link className="gamesLink" href="/games">
+                GAMES
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

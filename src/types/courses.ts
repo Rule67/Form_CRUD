@@ -1,3 +1,11 @@
+export type Course = {
+  id?: number | string;
+  code: string;
+  name: string;
+  credit: number;
+  instructor: string;
+};
+
 export type Member = {
   id: number;
   name: string;

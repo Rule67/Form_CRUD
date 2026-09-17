@@ -1,3 +1,7 @@
+body {
+  background-color: #d8f3dc;
+}
+
 .page, main {
   width: min(100% - 2rem, 70rem);
   margin-inline: auto;
@@ -148,8 +152,18 @@
   transition: all 0.2s ease;
 }
 
+.gamesLink {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-pixel), monospace;
+  font-size: 1.1rem;
+}
+
 .navLink:hover,
-.navLink:focus-visible {
+.navLink:focus-visible,
+.gamesLink:hover,
+.gamesLink:focus-visible {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.15);
   text-decoration: none;
